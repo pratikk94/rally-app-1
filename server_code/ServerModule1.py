@@ -7,7 +7,7 @@ from io import BytesIO
 
 @anvil.server.callable
 def get_plots():
-    data = pd.read_csv('nocturia_df.csv')  # Path to your dataset
+    data = pd.read_csv('C:\\Users\\Gaming-PC\\Desktop\\noctoria_df.csv')  # Path to your dataset
     
     # Create a figure to hold the subplots
     fig, axes = plt.subplots(3, 1, figsize=(10, 18))
